@@ -1,51 +1,110 @@
-.. MyNote documentation master file, created by
-   sphinx-quickstart on Fri May  7 14:59:31 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-C语言
+01_C语言
 ==================================
-
 .. toctree::
    :maxdepth: 1
-   :caption: C语言:
+   :caption: 01_C语言:
 
    note/01_C语言/日常总结.md
 
-C++
+02_C++
 ==================================
-
 .. toctree::
    :maxdepth: 1
-   :caption: C++:
+   :caption: 02_C++:
 
    note/02_C++/基础知识.md
    note/02_C++/面向对象.md
-   
-Linux
-==================================
 
+03_Linux
+==================================
 .. toctree::
    :maxdepth: 1
-   :caption: Linux:
+   :caption: 03_Linux:
 
-   note/03_Linux/03_Linux.md
-   
-FreeRTOS
+   note/03_Linux/Linux.md
+
+04_FreeRTOS
 ==================================
-
 .. toctree::
    :maxdepth: 1
-   :caption: FreeRTOS:
+   :caption: 04_FreeRTOS:
 
    note/04_FreeRTOS/日常总结.md
    note/04_FreeRTOS/移植.md
-   
-stm32-IAR
-==================================
 
+05_stm32-IAR
+==================================
 .. toctree::
    :maxdepth: 1
-   :caption: stm32-IAR:
+   :caption: 05_stm32-IAR:
 
    note/05_stm32-IAR/日常总结.md
+
+06_git
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 06_git:
+
+   note/06_git/命令汇总导图.md
+   note/06_git/常用命令.md
+   note/06_git/配置.md
+
+07_Qt
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 07_Qt:
+
+   note/07_Qt/Qt.md
+
+08_emWin
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 08_emWin:
+
+   note/08_emWin/emWin.md
+
+09_Python
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 09_Python:
+
+   note/09_Python/Python.md
+
+10_SQL
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 10_SQL:
+
+   note/10_SQL/SQL.md
+
+11_VsCode
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 11_VsCode:
+
+   note/11_VsCode/VsCode.md
+
+12_HTML
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 12_HTML:
+
+   note/12_HTML/HTML.md
+
+13_Shell脚本
+==================================
+.. toctree::
+   :maxdepth: 1
+   :caption: 13_Shell脚本:
+
+   note/13_Shell脚本/sh和bash区别.md
+   note/13_Shell脚本/变量.md
+   note/13_Shell脚本/特殊变量.md
+
