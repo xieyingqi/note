@@ -1,18 +1,20 @@
 #!/bin/bash
 
+source_dir="source"
 note_dir="note"
-out_file="index.rst"
+src_dir=$source_dir"/"$note_dir
+out_file="source/index.rst"
 
 function tocWrite(){
 	tittle=$1
-	tittle=${tittle#${note_dir}"/"}  #截取note/右边
+	tittle=${tittle#${src_dir}"/"}  #截取note/右边
 	tittle=${tittle%/*} #截取/左边
 	
-	echo "$tittle" >> $out_file
-	echo "==================================" >> $out_file
+	#echo "$tittle" >> $out_file
+	#echo "==================================" >> $out_file
 	echo ".. toctree::" >> $out_file
 	echo "   :maxdepth: 1" >> $out_file
-	echo -e "   :caption: $tittle:\n" >> $out_file
+	echo -e "   :caption: $tittle\n" >> $out_file
 }
 
 function getfile(){
@@ -22,6 +24,7 @@ function getfile(){
 		
 		if [[ $file == *.md ]] #如果是md文件
 		then
+			file=${file#${source_dir}"/"}
 			echo "   $file" >> $out_file
 		fi
 	done
@@ -43,4 +46,6 @@ function getdir(){
 }
 
 rm $out_file -f
-getdir $note_dir
+echo "我的学习笔记" >> $out_file
+echo "==================================" >> $out_file
+getdir $src_dir

@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'MyNote'
-copyright = '2021, xyq'
-author = 'xyq'
+copyright = '2021, XYQ'
+author = 'XYQ'
 
 
 # -- General configuration ---------------------------------------------------
@@ -29,7 +29,6 @@ author = 'xyq'
 # ones.
 extensions = [
 'recommonmark',
-# 'sphinx_markdown_tables',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -45,7 +44,7 @@ language = 'zh_CN'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 
 # -- Options for HTML output -------------------------------------------------

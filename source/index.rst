@@ -1,108 +1,84 @@
-01_C语言
+我的学习笔记
 ==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 01_C语言:
+   :caption: 01_C语言
 
    note/01_C语言/日常总结.md
 
-02_C++
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 02_C++:
+   :caption: 02_C++
 
    note/02_C++/基础知识.md
    note/02_C++/面向对象.md
 
-03_Linux
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 03_Linux:
+   :caption: 03_Linux
 
    note/03_Linux/Linux.md
 
-04_FreeRTOS
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 04_FreeRTOS:
+   :caption: 04_FreeRTOS
 
    note/04_FreeRTOS/日常总结.md
    note/04_FreeRTOS/移植.md
 
-05_stm32-IAR
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 05_stm32-IAR:
+   :caption: 05_stm32-IAR
 
    note/05_stm32-IAR/日常总结.md
 
-06_git
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 06_git:
+   :caption: 06_git
 
    note/06_git/命令汇总导图.md
    note/06_git/常用命令.md
    note/06_git/配置.md
 
-07_Qt
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 07_Qt:
+   :caption: 07_Qt
 
    note/07_Qt/Qt.md
 
-08_emWin
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 08_emWin:
+   :caption: 08_emWin
 
    note/08_emWin/emWin.md
 
-09_Python
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 09_Python:
+   :caption: 09_Python
 
    note/09_Python/Python.md
 
-10_SQL
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 10_SQL:
+   :caption: 10_SQL
 
    note/10_SQL/SQL.md
 
-11_VsCode
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 11_VsCode:
+   :caption: 11_VsCode
 
    note/11_VsCode/VsCode.md
 
-12_HTML
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 12_HTML:
+   :caption: 12_HTML
 
    note/12_HTML/HTML.md
 
-13_Shell脚本
-==================================
 .. toctree::
    :maxdepth: 1
-   :caption: 13_Shell脚本:
+   :caption: 13_Shell脚本
 
    note/13_Shell脚本/sh和bash区别.md
    note/13_Shell脚本/变量.md
