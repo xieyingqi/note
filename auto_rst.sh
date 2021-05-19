@@ -13,7 +13,7 @@ function tocWrite(){
 	#echo "$tittle" >> $out_file
 	#echo "==================================" >> $out_file
 	echo ".. toctree::" >> $out_file
-	echo "   :maxdepth: 1" >> $out_file
+	echo "   :maxdepth: 2" >> $out_file
 	echo -e "   :caption: $tittle\n" >> $out_file
 }
 
