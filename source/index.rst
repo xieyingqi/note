@@ -89,3 +89,10 @@
 
    note/12_HTML/HTML.md
 
+.. toctree::
+   :maxdepth: 2
+   :caption: 13_本笔记搭建方法
+
+   note/13_本笔记搭建方法/搭建方法.md
+   note/13_本笔记搭建方法/自动生成目录.md
+
