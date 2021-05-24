@@ -29,6 +29,7 @@ author = 'XYQ'
 # ones.
 extensions = [
 'recommonmark',
+#'sphinx_markdown_tables',  #readthedocs无法解析，只能先屏蔽了
 ]
 
 # Add any paths that contain templates here, relative to this directory.
