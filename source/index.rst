@@ -32,6 +32,7 @@
    note/04_Shell脚本/01_变量.md
    note/04_Shell脚本/02_特殊变量.md
    note/04_Shell脚本/03_sh和bash区别.md
+   note/04_Shell脚本/04_ftp传输例子.md
 
 .. toctree::
    :maxdepth: 2
